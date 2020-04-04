@@ -18,8 +18,7 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.2"
-  }
-  ,
+  },
   "gitDependencies": {
     "private-package-name": "git@private.git.server:user/repo.git#revision",
     "public-package-name": "https://github.com/gustavosf1983/SemanaOmni11.git#revision"
