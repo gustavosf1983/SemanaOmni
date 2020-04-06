@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap');
 
-
 *{
     margin: 0;
     padding: 0;
@@ -25,6 +24,11 @@ form input{
     border-radius: 8px;
     padding: 0 20px;
 }
+input:focus {
+    border: 1px solid  #7159c1;
+}
+
+
 
 .botao{
     width: 100%;
@@ -45,4 +49,12 @@ form input{
 }
 .botao:hover{
     filter: brightness(90%);
+}
+
+  
+
+
+.mensagem-erro{
+    font-size: 12px;
+    color: rgb(201, 37, 37);
 }

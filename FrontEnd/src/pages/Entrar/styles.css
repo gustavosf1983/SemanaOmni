@@ -36,9 +36,27 @@ h1{
 .botao , input{
     width: 100%;
     max-width: 300px;
-    margin: 10px auto;
+    margin: 10px auto 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
 }
+
+
+
+                    /**                 
+                        <label for="t1">What's your favorite fruit?<abbr title="This field is mandatory">*</abbr></label>
+                        <input type="text" id="t1" name="fruit" list="l1" required
+                            pattern="[Bb]anana|[Cc]herry|[Aa]pple|[Ss]trawberry|[Ll]emon|[Oo]range"/>
+                        <datalist id="l1">
+                        <option>Banana</option>
+                        <option>Cherry</option>
+                        <option>Apple</option>
+                        <option>Strawberry</option>
+                        <option>Lemon</option>
+                        <option>Orange</option>
+                        </datalist>
+**/
+
+
